@@ -35,6 +35,7 @@
 	.dashboard-main {
 		padding-left: 270px;
 		background-color: $gray-300;
+		min-height: 100vh;
 
 		.dashboard-header {
 			height: 60px;

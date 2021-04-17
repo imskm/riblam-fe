@@ -1,0 +1,28 @@
+.pagination {
+	display: flex;
+
+	a {
+		display: block;
+		padding: 8px 12px;
+		font-size: 1rem;
+		font-weight: 600;
+		color: $gray-500;
+		background-color: $gray-300;
+		border: 1px solid rgba($black-color, .2);
+	}
+
+	.pagination-prev {
+		border-top-left-radius: $radius;
+		border-bottom-left-radius: $radius;
+		border-right: 0;
+	}
+	.pagination-page {
+		border-left: 1px solid rgba($black-color, .2);
+		border-right: 1px solid rgba($black-color, .2);
+	}
+	.pagination-next {
+		border-top-right-radius: $radius;
+		border-bottom-right-radius: $radius;
+		border-left: 0;
+	}
+}

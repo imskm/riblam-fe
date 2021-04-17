@@ -1,0 +1,21 @@
+.table {
+	width: 100%;
+	background-color: $white-color;
+
+	td,th {
+		padding: 8px 12px;
+		text-align: left;
+		color: $gray-900;
+	}
+
+	thead th {
+		background-color: $gray-400;
+		font-weight: 600;
+	}
+
+	&.has-alternate-bg {
+		tbody tr:nth-child(even) {
+			background-color: $gray-300;
+		}
+	}
+}

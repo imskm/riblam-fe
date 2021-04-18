@@ -1,7 +1,4 @@
 .form{
-  width: 300px;
-  // border: 1px solid #c1b8b8;
-  background-color: #c1b8b8;
   border-radius: $radius; 
 }
 .main-form{
@@ -15,7 +12,10 @@
   outline: 0;
   margin-top: 10px;
   margin-bottom: 15px;
-  height: 35px;
+  height: 40px;
   padding-left: 10px;
+  border-radius: $radius; 
+  width: 100%;
+  // width: 800px;
 }
 

@@ -1,40 +1,82 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>project registration </title>
-
-<!-- css files -->
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all">
-
-<!-- //css files -->
-
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../../css/styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
 </head>
 <body>
+  <div class="dashboard">
+  	<div class="dashboard-sidebar">
+  		<div class="dashboard-brand">
+  			<img src="" alt="" class="logo">
+  		</div>
+  		<div class="dashboard-menu">
+  			<a class="dashboard-menu-item" href="">
+  				<span class="icon">
+            <i class="ri-dashboard-3-line"></i>    
+          </span>
+  				<span>Dashboard</span>
+  			</a>
+  			<a class="dashboard-menu-item" href="">
+          <span class="icon">
+            <i class="ri-folder-user-fill"></i>
+          </span>
+          <span>Create User</span>
+        </a>
+  			<a class="dashboard-menu-item" href="index.html">
+          <span class="icon">
+            <i class="ri-folder-shield-fill"></i>
+          </span>
+          <span>Projects</span>
+        </a>
+  		</div>
+  	</div>
+  	<div class="dashboard-main">
+  		<div class="dashboard-header">
+  			<div class="dashboard-header-right">
+  				<div class="avatar"><img src="" alt=""></div>
+  			</div>
+  		</div>
+  		<div class="dashboard-body">
+  			<div class="dashboard-body-title-wrapper">
+	  			<div class="dashboard-body-title">
+	  				<h1>Projects</h1>
+	  				<div>
+	  					<a href="user/create.html" class="button is-primary">New Project</a>
+	  				</div>
+	  			</div>
+  			</div>
 
-<!--main-->
-<div class="main-agileits">
-	<h2 class="sub-head"> new project </h2>
-		<div class="sub-main">	
-			<form action="#" method="post">
-				<input placeholder="project name" name="Name" class="name" type="text" required="">
-					<span class="icon1"><i class="fa fa-user" aria-hidden="true"></i></span><br>
-				<input placeholder="client's name " name="Name" class="name2" type="text" required="">
-					<span class="icon2"><i class="fa fa-user" aria-hidden="true"></i></span><br>
-				<input placeholder="total amount" name="Number" class="number" type="text" required="">
-					<span class="icon3"><i class="fa fa-phone" aria-hidden="true"></i></span><br>
-				<input placeholder="date" type="date" name="date" required="">
-				<span class="icon4"><i class="fa fa-phone" aria-hidden="true"></i></span><br>
-				
-				
-				
-				<input type="submit" value="sign up">
-			</form>
-		</div>
-		<div class="clear"></div>
-</div>
-<!--//main-->
-
-
+  			<div class="dashboard-content">
+  				<div class="form">
+  					<div class="main-form">
+  						<div class="field">
+  						 <label class="label">Project Name</label>
+  						  <input class="input"type="text" placeholder="project name">
+  						</div>
+  						<div class="field">
+  						 <label class="label">client's Name</label>
+  						  <input class="input"type="text" placeholder="client'name">
+  						</div>
+  						<div class="field">
+  						 <label class="label">Total Amount</label>
+  						  <input class="input"type="text" placeholder="total amount">
+  					    </div>
+  					    <div class="field">
+  					    	<label class="label">Date</label>
+  					    	<input class=input type="date" placeholder="date of birth" name="dob">
+  					    </div>
+  					    <button class="button" type="sign up">Create</button>
+  					</div>
+  				</div>
+  			</div>
+  		</div>
+  	</div>
+  </div>
 </body>
 </html>
+             
+              

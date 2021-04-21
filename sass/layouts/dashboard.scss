@@ -34,7 +34,7 @@
 
 	.dashboard-main {
 		padding-left: 270px;
-		background-color: $gray-300;
+		background-color: rgba($primary-color, .05);
 		min-height: 100vh;
 
 		.dashboard-header {

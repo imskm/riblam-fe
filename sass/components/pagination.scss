@@ -25,4 +25,14 @@
 		border-bottom-right-radius: $radius;
 		border-left: 0;
 	}
+	&.is-fullwidth {
+		width: 100%;
+		a {
+			flex: 1;
+		}
+		.pagination-next {
+			display: flex;
+			justify-content: flex-end;
+		}
+	}
 }

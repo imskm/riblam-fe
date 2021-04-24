@@ -438,6 +438,13 @@ input {
     border-top-right-radius: 0.25rem;
     border-bottom-right-radius: 0.25rem;
     border-left: 0; }
+  .pagination.is-fullwidth {
+    width: 100%; }
+    .pagination.is-fullwidth a {
+      flex: 1; }
+    .pagination.is-fullwidth .pagination-next {
+      display: flex;
+      justify-content: flex-end; }
 
 .table {
   width: 100%;
@@ -451,6 +458,28 @@ input {
     font-weight: 600; }
   .table.has-alternate-bg tbody tr:nth-child(even) {
     background-color: #F0F0F0; }
+
+.project-show {
+  margin-top: 30px; }
+
+.project-title {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  align-items: center; }
+  .project-title h1 {
+    font-size: 24px;
+    font-weight: 600; }
+
+.payment-title {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  align-items: center; }
+  .payment-title h1 {
+    font-size: 24px;
+    font-weight: 600; }
 
 .form {
   border-radius: 0.25rem; }

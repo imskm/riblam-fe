@@ -19,3 +19,33 @@
 		}
 	}
 }
+.project-show{
+	margin-top: 30px;
+	// tbody tr:nth-child(even) {
+	// background-color: $gray-300;
+		// }
+}
+
+.project-title{
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 20px;
+		align-items: center;
+
+		h1{
+			font-size: 24px;
+			font-weight: 600;
+		}
+	}
+.payment-title{
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 20px;
+		margin-top: 30px;
+		align-items: center;
+
+		h1{
+			font-size: 24px;
+			font-weight: 600;
+		}
+	}

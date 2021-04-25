@@ -395,12 +395,20 @@ input {
     opacity: .5;
     /*pointer-events: none;*/
     cursor: not-allowed; }
+  .button.is-danger {
+    background-color: #FF1111; }
+  .button.is-success {
+    background-color: #0ED543; }
+  .button.is-link {
+    background-color: #F0F0F0; }
+  .button.is-fullwidth {
+    width: 100%; }
+  .button.is-small {
+    width: 50%; }
 
 .button {
   align-items: center;
   padding: 12px;
-  appearance: none;
-  -webkit-appearance: none;
   width: 100%;
   background: #9146ff;
   margin-top: 30px;
@@ -555,13 +563,6 @@ input {
     width: 100%; }
   .login-row {
     margin-top: 4px; }
-  .login .icon {
-    display: flex;
-    align-items: center; }
-  .login .icon i {
-    margin-right: -2px;
-    display: flex;
-    color: #999; }
 
 .parent1 {
   display: flex;

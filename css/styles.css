@@ -360,11 +360,6 @@ a {
 a:focus, button:focus, select:focus, input:focus {
   outline: 0; }
 
-input {
-  appearance: none;
-  -webkit-appearance: none;
-  -moz-appearance: none; }
-
 .button {
   padding: 4px 16px;
   margin: 0;
@@ -480,6 +475,14 @@ input {
   .payment-title h1 {
     font-size: 24px;
     font-weight: 600; }
+
+.row {
+  display: flex; }
+  .row .col-1 {
+    margin-right: 16px;
+    width: 100%; }
+  .row .col-2 {
+    width: 100%; }
 
 .form {
   border-radius: 0.25rem; }

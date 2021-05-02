@@ -441,6 +441,15 @@ a:focus, button:focus, select:focus, input:focus {
       display: flex;
       justify-content: flex-end; }
 
+.is-success {
+  background-color: #75cc75;
+  padding: 10px;
+  margin-bottom: 10px; }
+
+.is-danger {
+  background-color: red;
+  padding: 10px; }
+
 .table {
   width: 100%;
   background-color: #FFFFFF; }

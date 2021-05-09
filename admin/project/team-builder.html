@@ -32,6 +32,12 @@
           </span>
           <span>Projects</span>
         </a>
+          <a class="dashboard-menu-item" href="team-builder.html">
+            <span class="icon">
+              <i class="ri-team-line"></i>
+            </span>
+            <span>Build Team</span>
+          </a>
 				<a class="dashboard-menu-item" href="../payment/index.html">
 					<span class="icon">
 						<i class="ri-money-dollar-circle-line"></i>
@@ -58,8 +64,8 @@
 
   			<div class="dashboard-content">
           <div>
-            <p>Select Member</p>
             <div class="field">
+              <label class="label">Select type of member you want to add in team</label><br>
               <label><input type="radio" name="x" value="2"> Business Head</label>
               <label><input type="radio" name="x" value="3"> Area Manager</label>
               <label><input type="radio" name="x" value="4"> Field Engineer</label>
@@ -68,7 +74,7 @@
           </div>
 
           <div style="margin-top: 20px">
-            <p>Select Member</p>
+            <p>Select Business Head / Area Manager</p>
               <select name="client_id">
                 <option value="1">Member</option>
                 <option value="2">Member</option>
@@ -76,13 +82,15 @@
               </select>
   		    </div>
 
+          <div class="field">
+            <label class="lable">Search user</label>
+              <input class="input" type="text" placeholder="Search user by name...">
+          </div>
+
 
           <div class="row">
             <div class="col-1">
               <div class="search">
-                <div class="field">
-                    <input class="input" type="text" placeholder="Search Member">
-                </div>
                   <table class="table has-alternate-bg">
                   <thead>
                     <tr>

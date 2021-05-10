@@ -505,18 +505,22 @@ a:focus, button:focus, select:focus, input:focus {
     width: 100%; }
 
 .form {
-  border-radius: 0.25rem; }
+  border-radius: 0.25rem;
+  background-color: #FFFFFF;
+  border-radius: .5rem; }
 
 .main-form {
   padding: 20px 10px;
+  width: 100%; }
+
+.field {
+  margin-bottom: 1.5rem;
   width: 100%; }
 
 .input {
   background-color: white;
   border: 0;
   outline: 0;
-  margin-top: 10px;
-  margin-bottom: 15px;
   height: 40px;
   padding-left: 10px;
   border: 1px solid rgba(0, 0, 0, 0.1);
@@ -524,6 +528,11 @@ a:focus, button:focus, select:focus, input:focus {
   width: 100%; }
   .input:focus {
     border: 1px solid #CCCCCC; }
+
+.label {
+  display: block;
+  margin-bottom: .5rem;
+  font-weight: 600; }
 
 .dashboard .dashboard-sidebar {
   width: 270px;

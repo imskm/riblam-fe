@@ -1,16 +1,21 @@
-.form{
-  border-radius: $radius; 
+.form {
+  border-radius: $radius;
+  background-color: $white-color;
+  border-radius: .5rem;
 }
 .main-form{
   padding: 20px 10px;
   width: 100%
 }
+
+.field {
+  margin-bottom: 1.5rem;
+  width: 100%;
+}
 .input{
   background-color: white;
   border: 0;
   outline: 0;
-  margin-top: 10px;
-  margin-bottom: 15px;
   height: 40px;
   padding-left: 10px;
   border: 1px solid rgba(0,0,0, .1);

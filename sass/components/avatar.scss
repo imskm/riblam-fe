@@ -1,0 +1,15 @@
+.avatar {
+	display: inline-flex;
+	width: 100px;
+	height: 100px;
+	object-fit: cover;
+
+	&.is-md {
+		width: 140px;
+		height: 140px;
+	}
+
+	&.is-rounded-full {
+		border-radius: 100%;
+	}
+}

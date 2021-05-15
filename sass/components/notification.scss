@@ -8,9 +8,10 @@ $notification-bg-red: rgb(255, 155, 155);
 	font-size: 1rem;
 	border-radius: $radius * 2;
 	width: 100%;
-	max-width: 500px;
 
 	&.toast-notification {
+		max-width: 500px;
+
 		position: fixed;
 		bottom: 2rem;
 		right: 2rem;

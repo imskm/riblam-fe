@@ -1,9 +1,29 @@
-.is-success{
-	background-color: #75cc75;
-	padding: 10px;
-	margin-bottom: 10px;
+$notification-bg-green: rgb(194, 253, 210);
+$notification-bg-red: rgb(255, 155, 155);
+
+.notification {
+	display: flex;
+	align-items: center;
+	padding: 1rem;
+	font-size: 1rem;
+	border-radius: $radius * 2;
+	width: 100%;
+	max-width: 500px;
+
+	&.toast-notification {
+		position: fixed;
+		bottom: 2rem;
+		right: 2rem;
+		z-index: 999;
+	}
 }
-.is-danger{
-	background-color: red;
-	padding: 10px;
+.is-success {
+	background-color: $notification-bg-green;
+	color: $green-900;
+	box-shadow: 10px 10px 20px rgba($notification-bg-green, .5);
+}
+.is-danger {
+	background-color: $notification-bg-red;
+	color: $red-900;
+	box-shadow: 10px 10px 20px rgba($notification-bg-red, .5);
 }
